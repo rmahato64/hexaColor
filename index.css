@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+.main-div{
+    width: 80%;
+    margin: auto;
+    background-color: rgb(241, 162, 153);
+    border-radius: 5px;
+}
+.button-div{
+    width: 40%;
+    margin: auto;
+}
+.button-div > button{
+    width: 5rem;
+    height: 2rem;
+    border-radius: 4px;
+
+}
+.number{
+    height: 2rem;
+}
+.stop{
+    background: red;
+}
+.generate{
+    background: rgb(56, 235, 56);
+}
+p,h3{
+    text-align: center;
+}
+.color-div{
+    width: 80%;
+    margin: auto;   
+
+}
+.color-div>div>button{
+    width: 8rem;;
+    height: 3rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 0.8rem;
+    vertical-align: middle;
+}
+.color-div>div{
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
